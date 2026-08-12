@@ -1,15 +1,18 @@
 # House Price Prediction using Machine Learning
 
 ## Project Description
-This project predicts house prices using Machine Learning and provides a Tkinter-based graphical user interface (GUI) for making predictions.
+This project predicts house prices using Machine Learning. A Linear Regression model is trained on the Ames Housing dataset and integrated with a Tkinter GUI for real-time price prediction.
 
 ## Dataset
-- Ames Housing Dataset
+- Ames Housing Dataset (Kaggle)
 
 ## Features Used
 - Overall Qual
 - Gr Liv Area
 - Garage Cars
+
+## Target
+- SalePrice
 
 ## Machine Learning Model
 - Linear Regression
@@ -23,30 +26,39 @@ This project predicts house prices using Machine Learning and provides a Tkinter
 - Pickle
 
 ## Project Files
+- AmesHousing.csv
 - train_model.py
 - tkinter_gui.py
 - house_price_model.pkl
-- AmesHousing.csv
+- requirements.txt
 
 ## How to Run
 
 1. Install the required libraries:
-   ```
-   pip install -r requirements.txt
-   ```
+
+```bash
+pip install -r requirements.txt
+```
 
 2. Train the model:
-   ```
-   python train_model.py
-   ```
+
+```bash
+python train_model.py
+```
 
 3. Run the GUI:
-   ```
-   python tkinter_gui.py
-   ```
+
+```bash
+python tkinter_gui.py
+```
 
 ## Output
-The GUI accepts house details and predicts the estimated house price.
+Enter:
+- Overall Quality
+- Ground Living Area
+- Garage Cars
+
+Click **Predict Price** to see the estimated house price.
 
 ## Author
-Your Name
+Siri Sha Vangapati
